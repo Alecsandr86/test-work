@@ -1,0 +1,26 @@
+
+// components
+@import "../../bower_components/css-reset-and-normalize-sass/scss/reset-and-normalize";  ;
+@import "partials/box-sizing";
+
+@import "partials/var";
+@import "partials/rem";
+@import 'partials/font';
+@import 'partials/typography';
+
+
+@import "partials/icon";
+@import 'partials/btn';
+@import "partials/burger";
+
+// pages
+@import "pages/header";
+@import "pages/header-media";
+
+@import "pages/index";
+@import "pages/index-media";
+
+
+
+@import "pages/footer";
+@import "pages/footer-media";

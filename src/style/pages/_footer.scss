@@ -1,0 +1,109 @@
+
+.footer{
+  background-color : #fff;
+  &__bottom{
+    padding :40px 0 ;
+    .wrapper{
+      display : flex;
+      flex-flow: row wrap;
+    }
+  }
+  &__cpy{
+    flex : 0 0 270px;
+    font-size :rem(14);
+    a{
+      text-decoration : none;
+      &:hover{
+        text-decoration : underline;
+      }
+    }
+  }
+  &__nav{
+    flex : 0 0 720px;
+    display: flex;
+  }
+  &__share{
+    flex : 0 0 180px;
+  }
+  &-nav{
+    &__item{
+      flex: 1 1 50%;
+      &:last-child{
+        flex : 0 0 173px;
+      }
+    }
+    &__title{
+      font-size :rem(13);
+      font-weight :900;
+      text-transform : uppercase;
+      color : #333333;
+      padding :0 0 20px;
+    }
+  }
+}
+
+.list-footer{
+  display : flex;
+  flex-flow: row wrap;
+
+}
+
+.footer-list{
+  flex: 1 1 33%;
+  &__item{
+
+  }
+  &__link{
+    font-size :rem(13);
+    color : $text;
+    text-decoration : none;
+    display : inline-block;
+    padding :9px 0;
+    opacity :.7;
+    &:hover{
+      color : $text;
+      text-decoration : underline;
+    }
+  }
+}
+
+
+.services{
+  background-color : #45413e;
+  padding :30px 0 42px;
+  .wrapper{
+    flex-flow: row wrap;
+  }
+  &__item{
+    flex: 1 1 300px;
+    padding :10px 0;
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+  }
+}
+
+.serv-box{
+  display : flex;
+  flex-flow: row nowrap;
+  &__icon{
+    flex :0 0 100px;
+  }
+  &__desc{
+    flex :0 0 220px;
+
+    p{
+      color : #868380;
+      font-size :rem(14);
+      line-height :18px;
+    }
+    .serv-box__title{
+      color : #ffffff;
+      font-size :rem(17);
+      font-weight :900;
+      text-transform : uppercase;
+      padding :0 0 16px;
+    }
+  }
+
+}

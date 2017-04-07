@@ -1,0 +1,195 @@
+
+html{
+  font-size : $em-base;
+}
+
+
+body{
+  font-family : $arial;
+  font-family: 'Roboto', sans-serif;
+  font-size   : rem(16);
+  color       : $text;
+  background-color : #f1edea;
+}
+
+
+//.fond{
+//  font-family: 'Roboto Condensed', sans-serif;
+//  font-family: 'Roboto Slab', serif;
+//}
+
+
+
+a{
+  color              : $link;
+  -webkit-transition : all .3s ease;
+  -moz-transition    : all .3s ease;
+  -ms-transition     : all .3s ease;
+  -o-transition      : all .3s ease;
+  transition         : all .3s ease;
+  cursor             : pointer;
+  &:hover{
+    color : lighten($link, 5%);
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight : bold;
+}
+
+
+h1{
+  font-size : rem(48);
+}
+
+
+h2{
+  font-size : rem(30);
+}
+
+
+h3{
+  font-size : rem(26);
+}
+
+
+h4{
+  font-size : rem(18);
+}
+
+
+h5{
+  font-size : rem(14);
+}
+
+
+h6{
+  font-size : rem(12);
+}
+
+
+strong{
+
+}
+
+
+b{
+
+}
+
+
+p{
+
+}
+
+
+i{
+  display : inline-block;
+}
+
+.wrapper{
+  display : flex;
+  flex-flow: row wrap;
+  margin :0 auto;
+  max-width : 1170px;
+  width :100%;
+}
+
+.h1{
+  text-align : center;
+  padding :0 0 50px;
+}
+
+.h2{
+
+}
+
+
+.ttu{
+  text-transform : uppercase;
+}
+
+
+.bold{
+  font-weight : bold;
+}
+
+.left{
+  float : left;
+}
+
+
+.right{
+  float : right;
+}
+
+
+.cr{
+  float     : none;
+  clear     : both;
+  margin    : 0;
+  padding   : 0;
+  font-size : 0.1px;
+}
+
+
+.both:after{
+  clear   : both;
+  content : "";
+  display : block;
+  float   : none;
+  margin  : 0;
+  padding : 0;
+}
+
+.triangle{
+  position : relative;
+  &:after{
+    content : '';
+    border-top : 7px solid #d1d5d8;
+    border-left : 4px solid transparent;
+    border-right : 4px solid transparent;
+    position : absolute;
+    top :50%;
+    right : 0;
+    margin :-4px 0 0;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

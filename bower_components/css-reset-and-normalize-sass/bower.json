@@ -1,0 +1,27 @@
+{
+  "name": "css-reset-and-normalize-sass",
+  "description": "A cleaned up combination of Eric Meyer's Reset CSS 2.0 and Nicolas Gallagher's normalize.css with some optional flavor. Sass Version.",
+  "authors": [
+    "Michael Gerstmann @top_webdesign"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "reset",
+    "normalize",
+    "sass",
+    "scss"
+  ],
+  "homepage": "https://github.com/webdesignberlin/css-reset-and-normalize-sass",
+  "main": [
+    "css/flavored-reset-and-normalize.css",
+    "css/reset-and-normalize.css"
+  ],
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "gulpfile.js",
+    "package.json"
+  ]
+}

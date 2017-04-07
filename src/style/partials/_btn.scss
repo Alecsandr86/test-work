@@ -1,0 +1,48 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  transition:all .2s ease;
+  border: none;
+  border-radius: 20px;
+  text-transform : uppercase;
+  color : #ffffff;
+  background-color : $acsent;
+  width :160px;
+  height :40px;
+  line-height :40px;
+  font-size :rem(14);
+  font-weight :900;
+  text-decoration : none;
+  &:hover{
+    background-color : lighten($acsent, 5%);
+    color : #ffffff;
+  }
+  &,
+  &:active,
+  &.active {
+    &:focus,
+    &.focus {
+
+    }
+  }
+  &-lg{
+    width: 180px;
+    padding: 18px 0;
+  }
+  &-md{
+    width: 150px;
+    padding: 15px 0;
+  }
+  &-sm{
+    width: 120px;
+    padding: 12px 0;
+  }
+  &-xs{
+    width: 100px;
+    padding: 10px 0;
+  }
+}
